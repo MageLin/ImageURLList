@@ -1,5 +1,5 @@
 # 1.安装MySql
-进入官网[下载地址](https://dev.mysql.com/downloads/mysql/ "mysql下载地址")，对应自己的系统，下载最新的版本即可，电脑是64位的，请选择64-bit的那个。
+进入官网[下载地址:https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/ "mysql下载地址")，对应自己的系统，下载最新的版本即可，电脑是64位的，请选择64-bit的那个。
 ![](https://github.com/MageLin/MyDiary/blob/master/install%20mysql%20for%20idea/mysql_download_page.png)
 如何想下载以前的版本，可以点击右上角的`Looking for previous GA versions?`。
 
