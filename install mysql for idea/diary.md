@@ -1,12 +1,12 @@
 # 1.安装MySql
 进入官网[下载地址:https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/ "mysql下载地址")，对应自己的系统，下载最新的版本即可，电脑是64位的，请选择64-bit的那个。
-![](https://github.com/MageLin/MyDiary/blob/master/install%20mysql%20for%20idea/mysql_download_page.png)
+![mysql下载页面](https://github.com/MageLin/MyDiary/blob/master/install%20mysql%20for%20idea/mysql_download_page.png)
 如何想下载以前的版本，可以点击右上角的`Looking for previous GA versions?`。
 
 # 2.配置
 因为下载免安装版的，所以需要进行配置。
 解压到某个文件路径后，进入bin文件夹下，找到一个名为`my-default.ini`文件，如果没有就需要创建一个。使用记事本打开文件：
-![](https://github.com/MageLin/MyDiary/blob/master/install%20mysql%20for%20idea/custom_ini.png)
+![配置文件](https://github.com/MageLin/MyDiary/blob/master/install%20mysql%20for%20idea/custom_ini.png)
 找到`# basedir = ....``# datadir = ....`这两个，把后面的省略号改成自己的所在路径，比如改为
 ```
 #basedir = D:\\Software\\mysql-5.6.46-winx64
@@ -39,7 +39,7 @@ default-storage-engine=INNODB
 
 # 3.使用CMD工具
 右键点击桌面左下角的window图标，弹出系统菜单，找到`Windows Powershell管理员`单击它，打开命令窗口。接下来，进入mysql的bin目录，我的在D盘，所以可以先输入`D：`然后按回车键，接着把bin目录路径直接复制粘贴到命令窗口里，路径前面加上cd关键字，按下回车进入目录。
-![](https://github.com/MageLin/MyDiary/blob/master/install%20mysql%20for%20idea/cmd_mysql_into_dir.png)
+![CMD进入目录](https://github.com/MageLin/MyDiary/blob/master/install%20mysql%20for%20idea/cmd_mysql_into_dir.png)
 
 ## 安装mysql
 接下来,输入命令`.\mysqld -install`。
